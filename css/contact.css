@@ -1,0 +1,77 @@
+html {
+    background: url(../images/background.jpg);
+    background-color: rgba(255, 255, 255, 0.1); /* White color with 10% transparency */
+    background-blend-mode: overlay;     
+}
+
+body { 
+	width:960px;
+	margin: 30px;
+    padding: 5px;
+    /*background: radial-gradient(circle,#0099ff, #fff);*/
+    background: linear-gradient(to bottom,#fff,#0099ff );
+    text-align: justify;
+    border-radius: 20px;
+	text-align: center;
+    color: #fff;
+	letter-spacing: 1px;
+}
+
+a {
+      display: inline-block; 
+      padding: 5px;
+      background: radial-gradient(#fff,#0099ff);
+      color: #ff9900;
+      font-family: 'Arvo', serif;
+      font-size: 15px;
+      text-decoration: none; /* Remove underline from the link */
+      text-transform: uppercase;
+      border-radius: 5px; /* Add rounded corners */
+      border:8px double white;
+}
+ 
+
+nav{
+    margin: 20px;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #ce000a;
+}
+
+article {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+h1 {font-size: 36pt;
+    background: linear-gradient(#ff9900,white);
+    -webkit-background-clip: text;
+    color: transparent;
+	text-transform: uppercase;
+    font-family: 'Arvo', serif;
+}
+
+p {
+	font-weight: 300;
+	font-size: 30px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px white, 0 0 0 10px #0099ff; /* Two box shadows to create the double border effect */
+}
+
+footer {
+	height: 50px;
+	background: #000;
+    font-family: 'PT Sans', sans-serif;
+	font-size: 15pt;
+    background: linear-gradient(#ff9900,white);
+    -webkit-background-clip: text;
+    color: transparent;
+	letter-spacing: 2px;
+}
